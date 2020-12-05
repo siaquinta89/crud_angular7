@@ -1,0 +1,14 @@
+<div class="container">
+   <table class='table table-striped'>
+       <tr>
+           <td scope='col'>Name</td>
+           <td scope='col'>Username</td>
+           <td scope='col'>Email</td>
+       </tr>
+       <tr *ngFor = "let item of data">
+           <td>{{item.name}}</td>
+           <td>{{item.username}}</td>
+           <td>{{item.email}}</td>
+       </tr>
+   </table>
+</div>
